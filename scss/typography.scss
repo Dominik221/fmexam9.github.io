@@ -1,0 +1,33 @@
+h1 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+dt {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: $color-dt;
+    cursor: pointer;
+    font-weight: 400;
+
+    &:hover,
+    &:focus {
+        color: $color-hover;
+    }
+
+    display: flex;
+    justify-content: space-between; 
+}
+
+dd {
+    padding-bottom: 5px;
+    color: $color-dd;
+}
+
+hr {
+    margin: 0;
+}
+
+.faq i {
+    color: $color-hover;
+}

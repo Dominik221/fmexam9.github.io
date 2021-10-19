@@ -1,0 +1,58 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient($color-bg-gradient1,$color-bg-gradient2); 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 50px;
+
+    font: {
+        family: $font-family;
+        size: .75rem;
+    }
+}
+
+#wrapper {
+    width: 68.75rem;
+}
+
+#wrapper .container {
+    max-width: 100%;
+    display: block;
+}
+
+.wrapper {
+    background-color: $color-bg-wrapper;
+    border-radius: 1.1875rem;
+    -webkit-border-radius: 1.1875rem;
+    -moz-border-radius: 1.1875rem;
+    -ms-border-radius: 1.1875rem;
+    -o-border-radius: 1.1875rem;
+}
+
+.show {
+    font-weight: 700;
+}
+
+.right {
+    padding: 3.125rem 3.125rem 3.125rem 0;
+}
+
+.rotate {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.moved {
+    transition: all .3s ease-in;
+    transform: translateX(-2.0rem);
+    -webkit-transform: translateX(-2.0rem);
+    -moz-transform: translateX(-2.0rem);
+    -ms-transform: translateX(-2.0rem);
+    -o-transform: translateX(-2.0rem);
+}
