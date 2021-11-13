@@ -17,8 +17,8 @@ This is a solution to the [FAQ accordion card on Frontend Mentor](https://www.fr
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-with-scss-WStNg6NJg)
-- [Live Site URL:](https://dominik221.github.io/fmexam8.github.io/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/faq-accordion-card-scssjquery-2HNq6JsxE)
+- [Live Site URL:](https://dominik221.github.io/fmexam9.github.io/)
 
 ## My process
 
